@@ -36,13 +36,13 @@ public:
 int main()
 {
 
-    Programming* L1 = new PythonProgramming();
+    Programming *L1 = new PythonProgramming();
 /*     L1->ProgLanguage(); */
 
-    Programming* L2 = new JavaProgramming();
+    Programming *L2 = new JavaProgramming();
 /*     L2->ProgLanguage(); */
 
-    Programming* Languages[2] = {L1, L2};
+    Programming *Languages[2] = {L1, L2};
 
     for(int i=0; i<2; i++){
         Languages[i]->ProgLanguage();
